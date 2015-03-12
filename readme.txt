@@ -3,7 +3,7 @@ Contributors: onetarek, mrromi-1
 Tags: Titan Framework, Font Awesome, Icon
 Requires at least: 3.8.0
 Tested up to: 4.1.1
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2+
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -11,7 +11,7 @@ Add functionality to use Font Awesome Icon as a new type of option field for Tit
 
 == Description ==
 
-"**[Titan Framework Icon](http://onetarek.com/my-wordpress-plugins/titan-framework-icon/)**" is an addon plugin for the main plugin "Titan Framework". Titan Framework does not have option to add icon chooser field. This plugin adds functionality to use Font Awesome Icon as a new type of option field named "icon" for Titan Framework.This plugin requires Titan Framework plugin.
+"**[Titan Framework Icon](http://onetarek.com/my-wordpress-plugins/titan-framework-icon/)**" is an addon plugin for the main plugin "Titan Framework". Titan Framework does not have option to add icon chooser field. This plugin adds functionality to use Font Awesome Icon as a new type of option field for Titan Framework.This plugin requires Titan Framework plugin.
 
 **Required:**
 
@@ -41,11 +41,17 @@ For more detail guide you should **[follow this page](http://onetarek.com/my-wor
 
 == Changelog ==
 
+= 1.1 =
+* Simple JavaScript Update
+
 = 1.0 =
 * Initial release
 
 
 == Upgrade Notice ==
+
+= 1.1 =
+* Simple JavaScript Update
 
 = 1.0 =
 * Initial release

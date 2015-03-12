@@ -5,11 +5,11 @@ Description: Add functionality to use Font Awesome Icon as a new type of option 
 Author: oneTarek, MrRomi-1
 Author URI: http://onetarek.com
 Plugin URI: http://onetarek.com/my-wordpress-plugins/titan-framework-icon/
-Version: 1.0
+Version: 1.1
 */
 
 
-define ( 'TICON_VERSION', '1.0');
+define ( 'TICON_VERSION', '1.1');
 define ( 'TICON_PLUGIN_FILE', __FILE__);
 define ( 'TICON_PLUGIN_DIR', dirname(__FILE__)); // Plugin Directory
 define ( 'TICON_PLUGIN_URL', plugin_dir_url(__FILE__)); // with forward slash (/). Plugin URL (for http requests).
@@ -29,7 +29,7 @@ function ticon_scripts() {
 
         // load Font Awesome css
 	wp_enqueue_style( 'ticon-fontawesome-iconpicker', TICON_PLUGIN_URL. 'assets/css/fontawesome-iconpicker.min.css', false, TICON_VERSION );
-	wp_enqueue_script( 'ticon-fontawesome-iconpicker', TICON_PLUGIN_URL. 'assets/js/fontawesome-iconpicker.js', array(), '20130115', true );
+	wp_enqueue_script( 'ticon-fontawesome-iconpicker', TICON_PLUGIN_URL. 'assets/js/fontawesome-iconpicker.js', array(), TICON_VERSION , true );
 }
 add_action( 'wp_enqueue_scripts', 'ticon_scripts' );
 

@@ -1,3 +1,12 @@
+/*!
+ * Font Awesome Icon Picker
+ * http://mjolnic.github.io/fontawesome-iconpicker/
+ *
+ * Originally written by (c) 2014 Javier Aguilar @mjolnic
+ * Licensed under the MIT License
+ * https://github.com/mjolnic/fontawesome-iconpicker/blob/master/LICENSE
+ *
+ */
 (function(a, b) {
     a.ui = a.ui || {};
     var c, d = Math.max, e = Math.abs, f = Math.round, g = /left|center|right/, h = /top|center|bottom/, i = /[\+\-]\d+(\.[\d]+)?%?/, j = /^\w+/, k = /%$/, l = a.fn.pos;
